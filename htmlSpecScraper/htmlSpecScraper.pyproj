@@ -27,6 +27,9 @@
     <Compile Include="boolean_attrs.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="event_attrs.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="htmlSpecScraper.py" />
     <Compile Include="tags.py">
       <SubType>Code</SubType>
@@ -34,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="abbr_tag.html" />
+    <Content Include="global_attrs.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
