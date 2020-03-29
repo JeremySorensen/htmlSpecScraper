@@ -21,10 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="a_tag.html">
+    <Compile Include="boolean_attrs.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="boolean_attrs.py">
+    <Compile Include="empty_tags.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="event_attrs.py">
@@ -36,7 +36,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="abbr_tag.html" />
     <Content Include="global_attrs.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -15,8 +15,6 @@ class Element:
 
 def make_soup(url):
     html = urllib.request.urlopen(url)
-    #with open("a_tag.html") as fp:
-    #   html = fp.read()
     return BeautifulSoup(html, features="lxml")
     
 
